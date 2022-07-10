@@ -1,0 +1,25 @@
+{
+  "name": "social-media-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitishd22/social-media-API.git"
+  },
+  "author": "Nitish Doss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitishd22/social-media-API/issues"
+  },
+  "homepage": "https://github.com/nitishd22/social-media-API#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4",
+    "nodemon": "^2.0.19"
+  }
+}
