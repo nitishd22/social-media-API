@@ -8,7 +8,7 @@ const thoughtController = {
       .catch((err) => {
         console.log(err);
         res.sendStatus(400);
-      });s
+      });
   },
 
   getThoughtsById({ params }, res) {
