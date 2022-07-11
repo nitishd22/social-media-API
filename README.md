@@ -8,19 +8,19 @@ https://www.youtube.com/watch?v=kvCQg5TbmBg
 
 ## Usage
 
-Step 1) Initialize
+Initialize
 
 ```
     npm init
 ```
 
-Step 2) Install
+Install
 
 ```
     npm i express mongoose nodemon
 ```
 
-Step 3) Start
+Start
 
 ```
     npm start
