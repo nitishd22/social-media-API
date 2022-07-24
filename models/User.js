@@ -7,27 +7,24 @@ const UserSchema = new Schema({
     required:"Username required",
     trim:true
 },
-
 email: {
     type:String,
     required:"Email required",
     unique:true,
     match: [/.+@.+\..+/]
 },
-
-thoughts: [
+  friends: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: 'Friend'
+    }
+  ],
+  thoughts: [
     {
       type: Schema.Types.ObjectId,
       ref: 'Thought'
     }
   ],
-
-friends: [
-    {
-      type: Schema.Types.ObjectId,
-      ref: 'Friend'
-    }
-  ]
 },
   {
     toJSON: {
